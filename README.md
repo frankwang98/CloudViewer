@@ -1,6 +1,5 @@
 # CloudViewer
-
-<img  src="http://nightn.github.io/2017/04/15/cloudviewer/img/%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D%E5%B8%A6%E6%A0%87%E5%8F%B7.png" width="750" align="center" />
+基于PCL&Qt的点云可视化，类似pcl_viewer和CloudCompare
 
 Description
 -----------
@@ -13,8 +12,18 @@ Compiling
 Please refer to the platform specific tutorials (Chinese):
  - [Microsoft Windows](https://github.com/nightn/CloudViewer/tree/master/doc/compiling-cloudviewer-windows.md)
  - [Linux](https://github.com/nightn/CloudViewer/tree/master/doc/compiling-cloudviewer-linux.md)
+ 
+Ubuntu18.04 tested
 
 Issues
 ------
 Please use the [Github issue tracker](https://github.com/nightn/CloudViewer/issues) for all bugs and feature requests.
 
+Module
+------
+AboutWin - about widget
+CloudViewer - pcl cloud process
+FileIO - support file for pcd ply obj stl vtk etc.
+MeshProcessing - PolygenMesh process
+MyCloud - basic operate for cloud
+Tool - tool function

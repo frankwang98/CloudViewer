@@ -278,7 +278,7 @@ void CloudViewer::exit() {
   this->close();
 }
 
-// Generate cube
+// Generate cube 先清除当前点云，再创建立方体
 void CloudViewer::cube() {
   mycloud.cloud.reset(new PointCloudT);
   total_points = 0;

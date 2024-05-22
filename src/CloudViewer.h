@@ -90,6 +90,7 @@ private:
   QString save_filename;
   long total_points = 0; //Total amount of points in the viewer
 
+  // init color
   unsigned int red = 255;
   unsigned int green = 255;
   unsigned int blue = 255;
